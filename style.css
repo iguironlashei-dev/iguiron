@@ -1,0 +1,147 @@
+/* GENERAL DESIGN */
+body {
+    background-color: #eee5ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background-color: #7b4ab5;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background-color: #7b4ab5;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e5caff;
+}
+
+/* PROFILE SECTION */
+.profile {
+    background-color: white;
+    width: 70%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* PROFILE IMAGE */
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #b78ae8;
+    object-fit: cover;
+}
+
+/* CONTENT SECTION */
+.content {
+    background-color: white;
+    width: 70%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* HEADINGS */
+h1 {
+    color: #7b4ab5;
+}
+
+h2 {
+    color: #9565c9;
+}
+
+/* PARAGRAPHS */
+p {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* AUDIO */
+audio {
+    width: 90%;
+    margin: 15px;
+}
+
+/* VIDEO */
+video {
+    width: 90%;
+    max-width: 450px;
+    border: 3px solid #b78ae8;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+/* BUTTON */
+.button {
+    display: inline-block;
+    background-color: #9565c9;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #7b4ab5;
+}
+
+/* FOOTER */
+footer {
+    background-color: #7b4ab5;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: white;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 600px) {
+
+    .profile, .content {
+        width: 85%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    nav a {
+        margin: 7px;
+        font-size: 15px;
+    }
+
+    video {
+        width: 95%;
+    }
+}
+Compose
+Write to Yzrah Daine Abanzado
+
+
+
